@@ -30,6 +30,17 @@
             { fname: 'Petra', balance: 500.35, rate: 4.9 },
             { fname: 'Reggie', balance: 0, rate: 7.2 }
         ]
+
+        //letters
+        let pastDue = "Create a loop that iterates through the customers array. Based on the customer's balance, create a personalized copy "
+
+        customers.forEach(function(items){
+            if(customers.balance === 0){
+                console.log(pastDue)
+            }
+        })
+
+
         // Create a loop that iterates through the customers array. Based on the customer's balance, create a personalized copy 
         // of the appropriate letter text from below. Each letter should be contained within a div with the style of 'letter'.
 
